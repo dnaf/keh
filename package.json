@@ -4,7 +4,7 @@
   },
   "name": "keh",
   "description": "**katie's element hierarchy**",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "devDependencies": {
     "pegjs": "^0.10.0"
