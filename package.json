@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  },
+  "scripts": {
+    "prepublish": "pegjs -o index.js keh.pegjs"
+  },
+  "name": "keh",
+  "description": "**katie's element hierarchy**",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Katie Wolfe (https://dnaf.moe/)",
+  "license": "MIT"
+}
