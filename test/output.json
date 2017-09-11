@@ -1,0 +1,58 @@
+[
+	{
+		"element": "root",
+		"attributes": {
+			"stringvalue": "string value",
+			"numbervalue": "number value"
+		},
+		"children": [
+			{
+				"element":"child",
+				"attributes": {
+					"childattrib": 1,
+					"anotherattrib": 123,
+					"duplicateattrib": 1
+				},
+				"children": [
+					{
+						"element": "child",
+						"attributes": {
+							"n": 1
+						},
+						"children": []
+					},
+					{
+						"element":"child",
+						"attributes": {
+							"n": 2
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"element": "anotherchild",
+				"attributes": {
+					"x": "50%"
+				},
+				"children": [
+					{
+						"attributes": {},
+						"children": [],
+						"element": "theemptychild"
+					},
+					{
+						"attributes": {},
+						"children": [],
+						"element": "theemptychild"
+					},
+					{
+						"attributes": {},
+						"children": [],
+						"element": "theemptychild"
+					}
+				]
+			}
+		]
+	}
+]

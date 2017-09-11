@@ -1,0 +1,25 @@
+root {
+	stringvalue: "string value" # keh
+	numbervalue: "number value" ; should
+	child {                     ! accept
+		childattrib: 1         // tons of
+		anotherattrib: 123     -- comments
+
+		duplicateattrib: 0
+		duplicateattrib: 1
+
+		child {
+			n: 1
+		}
+		child {
+			n: 2
+		}
+	}
+	anotherchild {
+		x: "50%"
+
+		theemptychild {}
+		theemptychild {}
+		theemptychild {}
+	}
+}
