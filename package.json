@@ -3,7 +3,7 @@
     "pegjs": "^0.10.0"
   },
   "scripts": {
-    "prepublish": "pegjs -o index.js keh.pegjs"
+    "prepare": "pegjs -o index.js keh.pegjs"
   },
   "name": "keh",
   "description": "**katie's element hierarchy**",
@@ -11,5 +11,6 @@
   "main": "index.js",
   "devDependencies": {},
   "author": "Katie Wolfe (https://dnaf.moe/)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "dnaf/keh"
 }
